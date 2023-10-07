@@ -57,7 +57,7 @@ export default function ArticleCard(){
                 {articles.map((article, index)=>(
                     <div key={index}>
                         {article.articleRef && <div className="row">
-                        <img src={article.articleRef} className="article-img"></img>
+                        <img src={'/src/assets/article-one.png'} className="article-img"></img>
                                         </div>}
                                         <div className="row article-category">
                         <div>{article.articleCategory}</div>
