@@ -1,6 +1,5 @@
 import React from "react"
 import { view, share, options, location} from '../assets'
-import articleOne from "/src/assets/article-one.png"
 
 export default function ArticleCard(props){
     const [optionsTab, setOptionsTab] = React.useState(false)
@@ -11,7 +10,7 @@ export default function ArticleCard(props){
         <>
             <div className="container">
                 {props.articleRef && <div className="row">
-                    <img src={articleOne} className="article-img"></img>
+                    <img src={props.articleRef} className="article-img"></img>
                 </div>}
                 <div className="row article-category">
                     <div>{props.articleCategory}</div>
