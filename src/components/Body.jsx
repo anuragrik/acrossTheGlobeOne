@@ -57,7 +57,7 @@ export default function Body(props){
             <div className="body-content">
                 <div className="body-cards">
                     <ArticleCard
-                        articleRef="articleOne" personRef="person-one"
+                        articleRef="article-one" personRef="person-one"
                         articleCategory="✍️ Article" articleTitle="What if famous brands had regular fonts? Meet RegulaBrands!" authorDesc="I’ve worked in UX for the better part of a decade. From now on, I plan to rei…" personName="Sarthak Kamra"
                     />
                     <ArticleCard
