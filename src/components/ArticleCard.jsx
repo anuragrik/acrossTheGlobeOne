@@ -8,7 +8,7 @@ export default function ArticleCard(){
     }
     const articles = [
         {
-          articleRef: '/src/assets/article-one.png',
+          articleRef: './assets/article-one.png',
           personRef: "/src/assets/person-one.png",
           articleCategory: "✍️ Article",
           articleTitle: "What if famous brands had regular fonts? Meet RegulaBrands!",
@@ -57,7 +57,7 @@ export default function ArticleCard(){
                 {articles.map((article, index)=>(
                     <div key={index}>
                         {article.articleRef && <div className="row">
-                        <img src='/assets/article-one.png' className="article-img"></img>
+                        <img src={article.articleRef} className="article-img"></img>
                                         </div>}
                                         <div className="row article-category">
                         <div>{article.articleCategory}</div>
