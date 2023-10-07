@@ -1,5 +1,5 @@
 import React from "react"
-import { view, share, options, location, articleOne} from '../assets'
+import { view, share, options, location} from '../assets'
 
 export default function ArticleCard(props){
     const [optionsTab, setOptionsTab] = React.useState(false)
