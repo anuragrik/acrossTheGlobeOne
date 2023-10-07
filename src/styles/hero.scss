@@ -1,0 +1,72 @@
+.hero{
+    position: relative;
+    min-width: 1011px;
+  }
+  @media (max-width: 576px){
+    .hero{
+      min-width: 0px;
+    }
+  }
+  .hero::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.60) 100%); 
+  }
+  .hero-text{
+    color: #FFF;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    white-space: nowrap;
+  }
+  .hero-text-subtitle{
+    font-weight: 400;
+  }
+  .h-img{
+    height: 440px;
+    width: 100%;
+  }
+  
+  .font-hero{
+    font-size: 36px;
+  }
+  .font-hero-sub{
+    font-size: 18px;
+  }
+  .hero-text-left{
+    left: 200px;
+  }
+  .hero-text-top{
+    top: 286px;
+  }
+  
+  @media (max-width: 900px){
+    .hero-text-left{
+      left: 120px;
+    }
+  } 
+  
+  @media (max-width: 576px) {
+    .font-hero{
+      font-size: 17px;
+    }
+    .font-hero-sub{
+      font-size: 12px;
+    }
+    .hero-text-left{
+      left: 16px;
+    }
+    .hero-text-top{
+      top: 164px;
+    }
+    .h-img{
+      height: 236px;
+    }
+  }

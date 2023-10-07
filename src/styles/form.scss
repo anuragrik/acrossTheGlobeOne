@@ -1,0 +1,281 @@
+.template{
+    position: absolute;
+    top: 186px;
+    left: 352px;
+    width: 736px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template: 50px auto/1fr;
+    @media (max-width: 576px) {
+      position: fixed;
+      top: 176px;
+      bottom: 0px;
+      left: 0px;
+      display: flex;
+      width: 100%;
+      margin-bottom: 0px;
+    }
+  }
+  .template-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFFFF4;
+    color: #008A45;
+    font-family: 'IBM Plex Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    width: 736px;
+  }
+  .template-body{
+    display: grid;
+    width: 736px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 36px;
+    padding-right: 36px;
+    gap: 24px;
+    @media (max-width: 576px) {
+      padding-left: 20px;
+      grid-template-columns: 1fr;
+      width: 100%;
+      padding-right: 0px;
+      gap: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .template-body-one{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .form-title{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 24px;
+    @media (max-width: 576px) {
+      padding-top: 0px;
+    }
+  }
+  .form-body{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .form-body-name{
+    gap: 0px;
+  }
+  .form-body>input{
+    width: 320px;
+    height: 46px;
+  }
+  .form-body>.visib-wp>input{
+    width: 320px;
+    height: 46px;
+  }
+  .visib-wp{
+    position: relative;
+  }
+  .form-body-name>input{
+    width: 160px;
+    height: 46px;
+  }
+  .form-confirm-pwd{
+    border-bottom: 1px solid #D9D9DB !important;
+  }
+  .form-last-name{
+    border-left: none !important;
+  }
+  .form-body>input, .form-body-name>input, .form-body>.visib-wp>input{
+    border-top: 1px solid #D9D9DB;
+    border-left: 1px solid #D9D9DB;
+    border-right: 1px solid #D9D9DB;
+    border-bottom: none;
+    background: #F7F8FA;
+    color: #8A8A8A;
+    font-family: 'IBM Plex Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 106.667% */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 12px;
+  }
+  .form-body>input:focus, .form-body-name>input:focus{
+    outline: none;
+  }
+  .visibility-icon{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+    @media (max-width: 576px) {
+      right: 10px;
+      top: 12px;
+    }
+  }
+  .form-submit{
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    background: #2F6CE5;
+    color: #FFF;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+    padding: auto;
+    border: none;
+    outline: none;
+    @media (max-width: 576px){
+      width: 150px;
+      height: 36px;
+    }
+  }
+  .sm-sign-in-grp{
+    gap: 110px;
+  }
+  .sm-sign-in-grp.create{
+    gap: 66px;
+  }
+  .sm-sign-in-switch{
+    cursor: pointer;
+    color: #495057;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+  .form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 36px;
+  }
+  .form-login>button{
+    width: 320px;
+    height: 38px;
+    border-radius: 2px;
+    border: 0.6px solid #D9D9DB;
+    background: #FFF;
+    color: #000;
+    font-family: 'IBM Plex Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .template-body-two{
+    display: flex;
+    flex-direction: column;
+    padding-top: 31px;
+    padding-bottom: 36px;
+  }
+  .form-signin{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2px;
+    color: #3D3D3D;
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 31px;
+  }
+  .form-signin>div{
+    color: #2F6CE5;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .reg-illustration{
+    display: flex;
+    width: 320px;
+    height: 320px;
+    padding: 20.395px 31.036px 38.761px 30.804px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .form-terms{
+    text-align: right;
+    padding-top: 17px;
+    color: #000;
+    opacity: 0.6;
+    font-family: 'IBM Plex Sans';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: -0.088px;
+    @media (max-width: 576px){
+      max-width: 320px;
+      text-align: center;
+      color: #212529;
+      font-family: IBM Plex Sans;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px; /* 145.455% */
+      letter-spacing: -0.088px;
+    }
+  }
+  .form-forgot{
+    padding-top: 23px;
+    color: #000;
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.096px;
+  }
+  .need-border{
+    border-bottom: 1px solid #D9D9DB !important;
+  }
+  .cross-button{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 146px;
+    left: 1074px;
+    cursor: pointer;
+  }
+  .cross-button-sm{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+  }
+  .header-form-sm{
+    @media (max-width: 576px) {
+      padding-right: 20px;
+      padding-top: 22px;
+      justify-content: space-between;
+      align-items: center;
+      gap: 119px;
+    }
+  }
