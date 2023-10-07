@@ -1,6 +1,5 @@
 import React from "react"
-import { view, share, options, location } from '../assets'
-import articleOne from '../assets/article-one.png'
+import { view, share, options, location, articleOne} from '../assets'
 
 export default function ArticleCard(props){
     const [optionsTab, setOptionsTab] = React.useState(false)
@@ -11,7 +10,7 @@ export default function ArticleCard(props){
         <>
             <div className="container">
                 {props.articleRef && <div className="row">
-                    <img src={articleOne} className="article-img"></img>
+                    <img src={props.articleRef} className="article-img"></img>
                 </div>}
                 <div className="row article-category">
                     <div>{props.articleCategory}</div>
@@ -32,7 +31,7 @@ export default function ArticleCard(props){
                 {props.authorDesc?<div className="row author-description">{props.authorDesc}</div>:
                 <><div className="alt-description">
                     <div className="alt-desc-left">
-                        <img src={`/src/assets/${props.articleDetailIcon}.svg`}></img>
+                        <img src={props.articleDetailIcon}></img>
                         <div>{props.articleDetailOne}</div>
                     </div>
                     <div className="alt-desc-right">
@@ -50,7 +49,7 @@ export default function ArticleCard(props){
                 <div className="row">
                     <div className="footer">
                         <div className="author d-flex flex-row align-items-center">
-                            <img src={`/src/assets/${props.personRef}.png`} className="person-icon" />
+                            <img src={props.personRef} className="person-icon" />
                             <div className="author-name">{props.personName}</div>
                         </div>
                     
