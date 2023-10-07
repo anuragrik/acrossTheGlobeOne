@@ -25,3 +25,16 @@ export {default as groupFour} from "../assets/group-4.png"
 export {default as view} from "../assets/view.svg"
 export {default as share} from "../assets/share.svg"
 export {default as options} from "../assets/options.svg"
+export {default as articleOne} from '../assets/article-one.png'
+export {default as articleTwo} from '../assets/article-two.png'
+export {default as articleThree} from '../assets/article-three.png'
+export {default as personOne} from '../assets/person-one.png'
+export {default as personTwo} from '../assets/person-two.png'
+export {default as personThree} from '../assets/person-three.png'
+export {default as personFour} from '../assets/person-four.png'
+export {default as calendar} from '../assets/calendar.svg'
+export {default as job} from '../assets/job.svg'
+
+
+
+
