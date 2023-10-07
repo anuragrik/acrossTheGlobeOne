@@ -10,7 +10,7 @@ export default function ArticleCard(props){
         <>
             <div className="container">
                 {props.articleRef && <div className="row">
-                    <img src={`/src/assets/${props.articleRef}.png`} className="article-img"></img>
+                    <img src={`/assets/${props.articleRef}.png`} className="article-img"></img>
                 </div>}
                 <div className="row article-category">
                     <div>{props.articleCategory}</div>
