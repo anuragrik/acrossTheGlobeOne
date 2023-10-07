@@ -17,6 +17,7 @@ export default function Body(props){
         setFollowStates(newFollowStates);
     }
 
+
     return (
         <div className="mega-body">
             <div className="top-bar d-none d-sm-flex flex-column">
@@ -56,24 +57,7 @@ export default function Body(props){
             </div>
             <div className="body-content">
                 <div className="body-cards">
-                    <ArticleCard
-                        articleRef="/src/assets/article-one.png" personRef="/src/assets/person-one.png"
-                        articleCategory="✍️ Article" articleTitle="What if famous brands had regular fonts? Meet RegulaBrands!" authorDesc="I’ve worked in UX for the better part of a decade. From now on, I plan to rei…" personName="Sarthak Kamra"
-                    />
-                    <ArticleCard
-                        articleRef="/src/assets/article-two.png" personRef="/src/assets/person-two.png"
-                        articleCategory="🔬️ Education" articleTitle="Tax Benefits for Investment under National Pension Scheme launched by Government" authorDesc="I’ve worked in UX for the better part of a decade. From now on, I plan to rei…" personName="Sarah West"
-                    />
-                    <ArticleCard
-                        articleRef="/src/assets/article-three.png" personRef="/src/assets/person-three.png"
-                        articleCategory="🗓️ Meetup" articleTitle="Finance & Investment Elite Social Mixer @Lujiazui" authorDesc="" personName="Ronal Jones"
-                        articleDetailOne="Fri, 12 Oct, 2018" articleLocation="Ahmedabad, India" articleDetailIcon = "/src/assets/calendar.svg" buttonContent="Visit Website"
-                    />
-                    <ArticleCard
-                        articleRef="" personRef="/src/assets/person-four.png"
-                        articleCategory="💼️ Job" articleTitle="Software Developer" authorDesc="" personName="Joseph Gray"
-                        articleDetailOne="Innovaccer Analytics Private Ltd." articleLocation="Noida, India" articleDetailIcon="/src/assets/job.svg" buttonContent="Apply on Timesjobs"
-                    />
+                    <ArticleCard />
                 </div>
                 <div className="group=details">
                     <div className="body-location d-none d-sm-flex">
