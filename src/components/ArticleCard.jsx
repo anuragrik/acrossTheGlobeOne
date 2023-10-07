@@ -8,7 +8,7 @@ export default function ArticleCard(){
     }
     const articles = [
         {
-          articleRef: "/src/assets/article-one.png",
+          articleRef: '/src/assets/article-one.png',
           personRef: "/src/assets/person-one.png",
           articleCategory: "✍️ Article",
           articleTitle: "What if famous brands had regular fonts? Meet RegulaBrands!",
