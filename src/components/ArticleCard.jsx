@@ -51,11 +51,14 @@ export default function ArticleCard(props){
                     <div className="footer">
                         <div className="author d-flex flex-row align-items-center">
                             <img src={props.personRef} className="person-icon" />
-                            <div className="author-name">{props.personName}</div>
+                            <div className="d-flex flex-column">
+                                <div className="author-name">{props.personName}</div>
+                                <div className="views-stat-sm d-sm-none">1.4K Views</div>
+                            </div>
                         </div>
                     
                         <div className="article-details d-flex flex-row">
-                            <div className="article-views">
+                            <div className="article-views  d-none d-sm-flex">
                                 <img src={view} className="view-icon" />
                                 <div className="views-stat">1.4K Views</div>
                             </div>
