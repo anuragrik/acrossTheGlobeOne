@@ -73,9 +73,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 24px;
     @media (max-width: 576px) {
-      padding-top: 10px;
     }
   }
   .form-body{
@@ -283,11 +281,12 @@
     cursor: pointer;
   }
   .header-form-sm{
+    padding-top: 24px;
     @media (max-width: 576px) {
       padding-right: 20px;
-      padding-top: 22px;
       justify-content: space-between;
       align-items: center;
       gap: 119px;
+      padding-top: 10px;
     }
   }
