@@ -64,6 +64,7 @@ export default function ArticleCard(props){
                             </div>
                             <button className="article-share">
                                 <img src={share} className="share-icon"></img>
+                                <div className="d-sm-none">Share</div>
                             </button>
                         </div>
                     </div>
