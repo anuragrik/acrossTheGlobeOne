@@ -67,12 +67,12 @@ export default function Body(props){
                     <ArticleCard
                         articleRef={articleThree} personRef={personThree}
                         articleCategory="🗓️ Meetup" articleTitle="Finance & Investment Elite Social Mixer @Lujiazui" authorDesc="" personName="Ronal Jones"
-                        articleDetailOne="Fri, 12 Oct, 2018" articleLocation="Ahmedabad, India" articleDetailIcon = {calendar} buttonContent="Visit Website"
+                        articleIcon="calendar" articleDetailOne="Fri, 12 Oct, 2018" articleLocation="Ahmedabad, India" articleDetailIcon = {calendar} buttonContent="Visit Website"
                     />
                     <ArticleCard
                         articleRef="" personRef={personFour}
                         articleCategory="💼️ Job" articleTitle="Software Developer" authorDesc="" personName="Joseph Gray"
-                        articleDetailOne="Innovaccer Analytics Private Ltd." articleLocation="Noida, India" articleDetailIcon={job} buttonContent="Apply on Timesjobs"
+                        articleIcon="job" articleDetailOne="Innovaccer Analytics Private Ltd." articleLocation="Noida, India" articleDetailIcon={job} buttonContent="Apply on Timesjobs"
                     />
                 </div>
                 <div className="group=details">

@@ -40,7 +40,7 @@ export default function ArticleCard(props){
                         <div>{props.articleLocation}</div>
                     </div>
                 </div>
-                <div className={`href-button ${props.articleDetailIcon}`}>
+                <div className={`href-button ${props.articleIcon}`}>
                     <button>
                         {props.buttonContent}
                     </button>
