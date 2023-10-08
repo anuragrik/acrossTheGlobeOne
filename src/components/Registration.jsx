@@ -60,6 +60,7 @@ export default function Registration(props){
                 </div>
             </div>
         </div>
+        <div className="modal-overlay"></div>
         </>
     )
 }
