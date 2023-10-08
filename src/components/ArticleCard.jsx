@@ -32,7 +32,7 @@ export default function ArticleCard(props){
                 {props.authorDesc?<div className="row author-description">{props.authorDesc}</div>:
                 <><div className="alt-description">
                     <div className="alt-desc-left">
-                        <img src={`/src/assets/${props.articleDetailIcon}.svg`}></img>
+                        <img src={props.articleDetailIcon}></img>
                         <div>{props.articleDetailOne}</div>
                     </div>
                     <div className="alt-desc-right">
@@ -50,7 +50,7 @@ export default function ArticleCard(props){
                 <div className="row">
                     <div className="footer">
                         <div className="author d-flex flex-row align-items-center">
-                            <img src={`/src/assets/${props.personRef}.png`} className="person-icon" />
+                            <img src={props.personRef} className="person-icon" />
                             <div className="author-name">{props.personName}</div>
                         </div>
                     
