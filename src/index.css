@@ -466,7 +466,7 @@
 }
 @media (max-width: 576px) {
   .form-title {
-    padding-top: 0px;
+    padding-top: 10px;
   }
 }
 
