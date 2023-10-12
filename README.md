@@ -1,6 +1,6 @@
-# Across the Globe
+# Description
 
-A frontend website for "Across the Globe". This project is built using HTML, CSS (SASS and Bootstrap), and JavaScript (React with Vite).
+A frontend website. This project is built using HTML, CSS (SASS and Bootstrap), and JavaScript (React with Vite).
 
 ## Technologies Used
 
